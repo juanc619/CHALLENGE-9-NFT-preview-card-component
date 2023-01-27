@@ -16,7 +16,23 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: var(--VerydarkblueMain);
     font-size: 18px;
+}
+
+.main-container {
+    border: 1px solid white;
+    width: 330px;
+    height: 546px;
+    margin: 60px auto;
+    border-radius: 16px;
+    padding: 26px;
+}
+
+h1 {
+    color: var(--White);
+    font-size: 1.3em;
+    margin-bottom: 18px;
 }
 
 
