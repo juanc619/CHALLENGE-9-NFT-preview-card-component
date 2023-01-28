@@ -120,31 +120,24 @@ h1 {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer { 
     font-size: 11px; 
     text-align: center; }
 
 .footer a { 
     color: hsl(228, 45%, 44%); }
+
+@media (min-width: 900px) {
+    .main-container {
+        width: 354px;
+        height: 600px;
+    }
+    .image {
+        width: 355px;
+        height: 300px;
+        background-position: center;   
+    }
+    .description {
+        font-size: 1em;
+    }
+}
